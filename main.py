@@ -1,6 +1,13 @@
-def print_hi(name):
-    print(f'Hi, {name}')
-
-if __name__ == '__main__':
-    print_hi('PyCharm')
+veiculos= input("Ingrese el veiculo: ")
+match veiculos:
+    case "moto":
+        print("puede pasar")
+    case "auto":
+        print("puede pasar")
+    case "camion":
+        print("puede pasar")
+    case _:
+        print("Acceso denegado")
+# hora= float(input("Ingrese le hora: "))
+# telepas= input("Posee telepass? ")
 
